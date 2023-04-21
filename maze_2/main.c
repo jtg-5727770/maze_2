@@ -106,13 +106,9 @@ void maze_print(char maze[MAZE_SIZE][MAZE_SIZE]) {
 int main(void)
 {
     int r, c;
-    int count = 0;
-    
-    StackType s;
-    StackType s1;
-    StackType s2;
-    StackType s3;
-    StackType s4;
+     
+    StackType s,s1,s2,s3,s4;
+
 
     init_stack(&s);
     init_stack(&s1);
